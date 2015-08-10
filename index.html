@@ -11,7 +11,7 @@
 	  	#ads {
 	  		text-align: center;
 	  	}
-	  	.backround {
+	  	.background {
 	  		background-color: rgba(0, 0, 0, 0.5);
 	  	}
 	  	.left {
@@ -23,13 +23,38 @@
 	  	.logos {
 	  		width: 
 	  	}
+
+	  	@keyframes slidy {
+			0% { left: 0%; }
+			20% { left: 0%; }
+			25% { left: -100%; }
+			45% { left: -100%; }
+			50% { left: -200%; }
+			70% { left: -200%; }
+			75% { left: -300%; }
+			95% { left: -300%; }
+			100% { left: -400%; }
+			}
+
+			body { margin: 0; } 
+			div #slider { overflow: hidden; }
+			div #slider figure img { width: 20%; float: left; }
+			div #slider figure { 
+			  position: relative;
+			  width: 500%;
+			  margin: 0;
+			  left: 0;
+			  text-align: left;
+			  font-size: 0;
+			  animation: 30s slidy infinite; 
+			}
 	  </style>
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
-		      <a class="navbar-brand" href="#"><img src="C:\Users\admin\Desktop\the_weight_of_the_media\images\wotmlogowhitesmall.png"></a>
+		      <a class="navbar-brand" href="#"><img src="C:/Users/admin/Desktop/the_weight_of_the_media/images/wotmlogowhitesmall.png"></a>
 		    </div>
 		    <div>
 		      <ul class="nav navbar-nav">
@@ -55,6 +80,7 @@
 		    <p>This page will grow as we add more and more components from Bootstrap...</p>      
 		    <a href="#" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-search"></span> Search</a>
 		  </div> -->
+		  <br>
 		  <div class="row">
 		  	<div class="col-md-12">
 		  		<div id="ads">
@@ -65,6 +91,16 @@
 		  <br>
 		  <div class="row">
 		    <div class="col-md-9">
+		      <div id="slider">
+				<figure>
+				<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
+				<img src="http://demosthenes.info/assets/images/taj-mahal.jpg" alt="">
+				<img src="http://demosthenes.info/assets/images/ibiza.jpg" alt="">
+				<img src="http://demosthenes.info/assets/images/ankor-wat.jpg" alt="">
+				<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
+				</figure>
+			   </div>
+
 		      <h1>About Us</h1>
 		      <br>
 		      <p>
@@ -101,6 +137,9 @@
 		    <div class="clearfix visible-lg"></div>
 		  </div>
 		</div>
+		<div id="ads">
+  	  		<img src="C:\Users\admin\Desktop\the_weight_of_the_media\images\ads\sample.png">
+  	  	</div>
 		<div class="background">
 			<footer class="footer">
 					<div class="container">
@@ -113,11 +152,11 @@
 							</div>
 							<div class="right">
 								<div class="logos">
-									<img src="C:\Users\admin\Desktop\the_weight_of_the_media\images\socialmedia\facebook.png" style="width:40px; height:40px;">
-									<img src="C:\Users\admin\Desktop\the_weight_of_the_media\images\socialmedia\googleplus.png" style="width:40px; height:40px;">
-									<img src="C:\Users\admin\Desktop\the_weight_of_the_media\images\socialmedia\linkedin.png" style="width:40px; height:40px;">
-									<img src="C:\Users\admin\Desktop\the_weight_of_the_media\images\socialmedia\twitter.png" style="width:40px; height:40px;">
-									<img src="C:\Users\admin\Desktop\the_weight_of_the_media\images\socialmedia\youtube.png" style="width:40px; height:40px;">
+									<img src="C:\Users\admin\Desktop\the_weight_of_the_media\images\socialmedia\facebook.png" style="width:35px; height:35px;">
+									<img src="C:\Users\admin\Desktop\the_weight_of_the_media\images\socialmedia\googleplus.png" style="width:35px; height:35px;">
+									<img src="C:\Users\admin\Desktop\the_weight_of_the_media\images\socialmedia\linkedin.png" style="width:35px; height:35px;">
+									<img src="C:\Users\admin\Desktop\the_weight_of_the_media\images\socialmedia\twitter.png" style="width:35px; height:35px;">
+									<img src="C:\Users\admin\Desktop\the_weight_of_the_media\images\socialmedia\youtube.png" style="width:35px; height:35px;">
 								</div>
 							</div>
 						</div>
