@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	  <title>Home | The Weight of the Media</title>
+	  <title>Music | The Weight of the Media</title>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	  <style type="text/css">
+
 	  	#ads {
 	  		text-align: center;
+	  		padding: 30px 50px 30px 50px;
 	  	}
 
 	  	#ads-top {
@@ -21,6 +23,7 @@
 	  		background-color: #333;
 	  		
 	  	}
+
 	  	.left {
 	  		text-align: left;
 	  	}
@@ -36,44 +39,24 @@
 			color: #fff;
 		}
 
-		.border-recent {
-			border: 3px solid #111;
-			padding: 10px 30px 20px 30px;
-		}
-
 		.border {
 			border: 3px solid #111;
 			padding: 10px 10px 20px 10px;
 		}
 
-	  	@keyframes slidy {
-			0% { left: 0%; }
-			20% { left: 0%; }
-			25% { left: -100%; }
-			45% { left: -100%; }
-			50% { left: -200%; }
-			70% { left: -200%; }
-			75% { left: -300%; }
-			95% { left: -300%; }
-			100% { left: -400%; }
-			}
-
-		body { margin: 0; } 
-		div #slider { overflow: hidden; }
-		div #slider figure img { width: 20%; float: left; }
-		div #slider figure { 
-		  position: relative;
-		  width: 500%;
-		  margin: 0;
-		  left: 0;
-		  text-align: left;
-		  font-size: 0;
-		  animation: 30s slidy infinite; 
+		.article {
+			border-bottom: 1px solid black;
 		}
 
-		.article-snippet {
-			border-bottom: 2px solid black; 
-		}
+		.more-articles-img {
+	  		text-align: left;
+	  	}
+
+	  	.more-articles {
+	  		border-bottom: 1px solid black;
+	  		padding: 10px 10px 10px 10px;
+	  	}
+
 
 		.footer {
 		  position:static;
@@ -85,7 +68,20 @@
 		}
 
 		.footer-text {
-		color: #fff;
+			color: #fff;
+		}
+
+		.right-tab {
+			border-left: 2px solid black;
+			padding: 10px 30px 20px 30px;
+		}
+
+		.videogames .horizontal-line .sort-op {
+			display: inline;
+		}
+
+		.para {
+			padding: 10px 10px 10px 10px;
 		}
 
 	  </style>
@@ -94,7 +90,7 @@
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
-				<a class="navbar-brand" href="C:\Users\admin\Desktop\the_weight_of_the_media\index.html"><img src="images/wotmlogowhitesmall.png"></a>
+				<a class="navbar-brand" href="C:\Users\admin\Desktop\the_weight_of_the_media\index.html"><img src="images/wotmlogowhite.png" style="width:54px;height:22px;"></a>
 		    </div>
 		    <div>
 		      <ul class="nav navbar-nav">
@@ -108,7 +104,7 @@
 		          </ul>
 		        <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\forums.html">Forums</a></li>
 		        <li><a href="#">Merchandise</a></li>
-		        <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\login.html">Login/Sign Up</a></li>
+		        <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\login">Login/Sign Up</a></li>
 		        <li><a href="#">Cart</a></li>
 		      </ul>
 		    </div>
@@ -130,57 +126,26 @@
 		  </div>
 		  <br>
 		  <div class="row">
-		    <div class="col-md-9">
-		      <div id="slider">
-				<figure>
-				<img src="http://mediad.publicbroadcasting.net/p/kalw/files/201505/Propaganda-feature-image.jpg" width="847px" height="485px" alt="">
-				<img src="http://clashdaily.com/wp-content/uploads/2014/08/propaganda-media-controls-us.jpg" width="847px" height="485px" alt="">
-				<img src="http://wac.7725.edgecastcdn.net/807725/website/wp-content/uploads/2013/02/violent_video_games.jpeg" width="847px" height="485px" alt="">
-				<img src="http://demosthenes.info/assets/images/ankor-wat.jpg" width="847px" height="485px" alt="">
-				<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" width="847px" height="485px" alt="">
-				</figure>
-			   </div>
-			   <br>
-			   <div class="border">
-			      <h1>About Us</h1>
-			      <br>
-			      <p>
-			      	Welcome to Weight of the Media. Where our objective is to essentially encourage the exercise and freedom of independent thinking.
-			      </p>
-			      <br>
-			      <p>Throughout the recent years there has been recent controversal events portrayed amongst politicians and that of the media where the media has had a influence over its citizens following the events of a tragic event such as a massacre or the daily innapropriate language spoken by young children. Henceforth, the media itself would then blame such innapropriate events upon that of the violent works of art available to society in terms of video games, music, and movies. Although this website is dedicated towards educating the consumers of main stream media to provide them an additional perspective of the content provided by such mainstream media to further promote an environment where the consumer may form an unbiased opinion where it may impact the values respected his or her peers.</p>
-			   </div>
+		    <div class="col-md-2">
+		    	<div class="videogames">
+		    		<h2>Music</h2>
+		    	</div>
 		    </div>
-		    <div class="col-md-3"> 
-		    	<div class="border-recent">
-		    	 <h3 class="active">Most Viewed Articles</h3>
-		    	 <br>
-		    	 <div class="articles-mini">
-			      	 <div class="article-snippet">
-			      	 	<h4>Reasons why video games do not cause violence</h4>
-			      	 	<p class="muted">Posted 1 hour ago by Bryan P.</p>
-			      	 </div>
-				    <br>
-				    <div class="article-snippet">
-				    	<h4>10 ways to transform your children into leaders</h4>
-				    	<p class="muted-text"> Posted 2 hours ago by Anonymous</p>
-				    </div>
-				    <br>
-				    <div class="article-snippet">
-				    	<h4>Methods of the implementation of propaganda</h4>
-				    	<p class="muted-text">Posted 7 hours ago by John S.</p>
-				    </div>
-				    <br>
-				    <div class="article-snippet">
-				    	<h4>How the media Influences your mind</h4>
-				    	<p class="muted-text">Posted 1 day ago by Jacob A.</p>
-				    </div>
-				    <br>
-				    <div>
-				    	<h4>Top 5 moments when Media rating systems were inaccurate</h4>
-				    	<p class="muted-text">Posted 1 day ago by Catherine M.</p>
-				    </div>
-		      	</div>
+		    <br>
+		    <div class="col-md-7">
+		    	<div class="horizontal-line">
+		    		<hr>
+		    	</div>
+		    </div>
+		    <div class="col-md-3">
+		    	<div class="sort-op">
+			    	<select>
+			    		<option value="Overall">Overall</option>
+			    		<option value="Article">Article</option>
+			    		<option value="Banned">Banned Content</option>
+			    		<option value="Failed">When rating systems failed</option>
+			    	</select>
+			    </div>
 		    </div>
 		   <!--  <div class="col-md-3"> 
 		      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
@@ -204,13 +169,117 @@
 		    </div> -->
 		    <div class="clearfix visible-lg"></div>
 		  </div>
+		  <br>
+		  <div class="row">
+		  	<div class="col-md-8">
+		  		<div class="border">
+		  			<div class="article-list">
+		  				<div class="article">
+		  					<h4>Miley Cyrus on Violence in Taylor Swifts..</h4>
+		  					<p class="muted-text">Miley Cyrus told Marie Clair "That's supposed to be a good example?"...</p>
+		  					<p class="muted-text">Posted 1 hour ago</p>
+		  				</div>
+		  				<div class="article">
+		  					<h4>China Steps up Music Market Legitimacy</h4>
+		  					<p class="muted-text">The Chinese government has publicly stated that the Music Industry tends to glorify violence and sexual...</p>
+		  					<p class="muted-text">Posted 5 hours ago</p>
+		  				</div>
+		  				<div class="article">
+		  					<h4>Tyler claims he's banned from Australia</h4>
+		  					<p class="muted-text">The Austrailian government has banned Tyler's musical content in order to further take actioin to reduce violence...</p>
+		  					<p class="muted-text">Posted 8 hours ago</p>
+		  				</div>
+		  				<div class="article">
+		  					<h4>Chief Keef's Concert</h4>
+		  					<p class="muted-text">Cheif Keefs concert is set for July 25 where many have argued and insist that Keef's music promotes violence ...</p>
+		  					<p class="muted-text">Posted 15 hours ago</p>
+		  				</div>
+		  				<div class="article">
+		  					<h4>Top 10 effects contributed by rap music</h4>
+		  					<p class="muted-text">Here is a list of violent events and daily effects contributed by rap music...</p>
+		  					<p class="muted-text">Posted 20 hours ago</p>
+		  				</div>
+		  			</div>
+		  		</div>
+		  	</div>
+		  	<div class="col-md-4">
+		  		<div class="right-tab">
+			  		<div class="more-articles-header">
+		  				<div class="row">
+		  					<div class="col-md-5">
+				  				<h4>More Articles</h4>
+				  			</div>
+				  			<div class="col-md-7">
+				  				<hr>
+				  			</div>
+			  			</div>
+		  			</div>
+		  			<div class="more-articles">
+		  				<div class="row">
+		  					<div class="col-md-4">
+						  		<div class="more-articles-img">
+						  			<img src="http://3.bp.blogspot.com/-pCjXessgeNo/URxSXGQV80I/AAAAAAAAABA/zSRcLxehwN8/s1600/snoop.jpg" width="75px" height="50px">
+						  		</div>
+						  	</div>
+						  	<div class="col-md-8">
+						  		<div class="para">
+						  			<p>Hip Hop has promoted the use of Drugs towards...</p>
+						  		</div>
+						  	</div>
+						</div>
+				  	</div>
+			  		<br>
+			  		<div class="more-articles">
+				  		<div class="row">
+		  					<div class="col-md-4">
+						  		<div class="more-articles-img">
+						  			<img src="http://www.hiphopstan.com/wp-content/uploads/2014/08/anaconda-nicki-minaj-8.jpg" width="75px" height="50px">
+						  		</div>
+						  	</div>
+						  	<div class="col-md-8">
+						  		<div class="para">
+						  			<p>How Nicki Minaj has influenced children through... </p>
+						  		</div>
+						  	</div>
+						</div>
+					</div>
+					<div class="more-articles">
+				  		<div class="row">
+		  					<div class="col-md-4">
+						  		<div class="more-articles-img">
+						  			<img src="http://www.hollywoodreporter.com/sites/default/files/2013/09/miley_cyrus_wrecking_ball.jpg" width="75px" height="50px">
+						  		</div>
+						  	</div>
+						  	<div class="col-md-8">
+						  		<div class="para">
+						  			<p>Evidence that Miley Cyrus has influenced... </p>
+						  		</div>
+						  	</div>
+						</div>
+					</div>
+					<div class="more-articles">
+				  		<div class="row">
+		  					<div class="col-md-4">
+						  		<div class="more-articles-img">
+						  			<img src="http://www.wallpaperup.com/uploads/wallpapers/2013/11/30/180957/big_thumb_221c1237e2187291d9b017b8c730ad52.jpg" width="75px" height="50px">
+						  		</div>
+						  	</div>
+						  	<div class="col-md-8">
+						  		<div class="para">
+						  			<p>Top 5 Reasons that Rap music contains violent...</p>
+						  		</div>
+						  	</div>
+						</div>
+					</div>
+			  	</div>
+		  	</div>
+		  </div>
 		</div>
 		<br>
 		<div id="ads">
   	  		<img src="images/ads/sample.png">
   	  	</div>
   	  	<br>
-  	  	</div>
 		<div class="background">
 			<footer class="footer">
 					<div class="container">
@@ -218,7 +287,7 @@
 							<div class="col-md-4">
 								<div class="left">
 									<form action="overall.asp">
-									<input type="text" name="FirstName" value="What are you looking for?" width="200px" height="25px">
+									<input type="text" name="Search" placeholder="What are you looking for?" width="200px" height="25px">
 									<input type="submit" value="Search">
 									</form>
 								</div>

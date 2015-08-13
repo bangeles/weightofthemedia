@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Login | The Weight of the Media</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<style type="text/css">
+  @import '../../shared/mixins',
+        '../../shared/reset',
+        '../../shared/about-light';
+
+/*
+ * Copyright (c) 2012-2013 Thibaut Courouble
+ * http://www.cssflow.com
+ *
+ * Licensed under the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+body {
+  color: #404040;
+  background: white;
+}
+      #ads {
+        text-align: center;
+      }
+      .background {
+        background-color: #333;
+        
+      }
+      .left {
+        text-align: left;
+      }
+      .right {
+        text-align: right;
+      }
+      /*.logos {
+        width: 
+      }*/
+
+      .left-2 {
+      text-align: left;
+      color: #fff;
+    }
+
+    .border-recent {
+      border: 3px solid #111;
+      padding: 10px 30px 20px 30px;
+    }
+
+    .border {
+      border: 3px solid #111;
+      padding: 10px 10px 20px 10px;
+    }
+
+    .footer {
+      position:static;
+      padding: 10px 0px 10px 0px;
+      bottom:0px;
+      width: 100%;
+      margin-bottom: 0%;
+      background-color: #111;
+    }
+    .footer-text {
+    color: #fff;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .send {
+      text-align: right;
+    }
+    .googleMap {
+
+
+    }
+    .border-fluid {
+      border: 3px solid #111;
+
+    }
+
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="C:\Users\admin\Desktop\the_weight_of_the_media\index.html"><img src="images/wotmlogowhite.png" style="width:54px;height:22px"></a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="#">Media</a></li> -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\videogames.html">Video Games</a></li>
+            <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\movies.html">Music</a></li>
+            <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\movies.html">Movies</a></li>                        
+          </ul>
+        <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\forums.html">Forums</a></li>
+        <li><a href="#">Merchandise</a></li>
+        <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\login.html">Login/Sign Up</a></li>
+        <li><a href="#">Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <section class="container-fluid">
+      <div class="border">
+        <h3><strong>Sign Up</strong></h3>
+        <form>
+              <p><input type="text" name="username" placeholder="Username"></p>
+              <p><input type="text" name="email" placeholder="Email"></p>
+              <p><input type="password" name="pwd" placeholder="Password"></p>
+              <p><input type="password" name="pwd" placeholder="Confirm Password"></p>
+              <p><strong>Birthday</strong></p>
+              <div class="row">
+                <div class="col-md-3">
+                  <select>
+                    <option value="month">Month</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <select>
+                    <option value="day">Day</option>
+                    <option value="day">01</option>
+                    <option value="day">02</option>
+                    <option value="day">03</option>
+                    <option value="day">04</option>
+                    <option value="day">05</option>
+                    <option value="day">06</option>
+                    <option value="day">07</option>
+                    <option value="day">08</option>
+                    <option value="day">09</option>
+                    <option value="day">10</option>
+                    <option value="day">11</option>
+                    <option value="day">12</option>
+                    <option value="day">13</option>
+                    <option value="day">14</option>
+                    <option value="day">15</option>
+                    <option value="day">16</option>
+                    <option value="day">17</option>
+                    <option value="day">18</option>
+                    <option value="day">19</option>
+                    <option value="day">20</option>
+                    <option value="day">21</option>
+                    <option value="day">22</option>
+                    <option value="day">23</option>
+                    <option value="day">24</option>
+                    <option value="day">25</option>
+                    <option value="day">26</option>
+                    <option value="day">27</option>
+                    <option value="day">28</option>
+                    <option value="day">29</option>
+                    <option value="day">30</option>
+                    <option value="day">31</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <select>
+                    <option value="year">Year</option>
+                    <option value="year">1960</option>
+                    <option value="year">1961</option>
+                    <option value="year">1962</option>
+                    <option value="year">1963</option>
+                    <option value="year">1964</option>
+                    <option value="year">1965</option>
+                    <option value="year">1966</option>
+                    <option value="year">1967</option>
+                    <option value="year">1968</option>
+                    <option value="year">1969</option>
+                    <option value="year">1970</option>
+                    <option value="year">1971</option>
+                    <option value="year">1972</option>
+                    <option value="year">1973</option>
+                    <option value="year">1974</option>
+                    <option value="year">1975</option>
+                    <option value="year">1976</option>
+                    <option value="year">1977</option>
+                    <option value="year">1978</option>
+                    <option value="year">1979</option>
+                    <option value="year">1980</option>
+                    <option value="year">1981</option>
+                    <option value="year">1982</option>
+                    <option value="year">1983</option>
+                    <option value="year">1984</option>
+                    <option value="year">1985</option>
+                    <option value="year">1986</option>
+                    <option value="year">1987</option>
+                    <option value="year">1988</option>
+                    <option value="year">1989</option>
+                    <option value="year">1990</option>
+                    <option value="year">1991</option>
+                    <option value="year">1992</option>
+                    <option value="year">1993</option>
+                    <option value="year">1994</option>
+                    <option value="year">1995</option>
+                    <option value="year">1996</option>
+                    <option value="year">1997</option>
+                    <option value="year">1998</option>
+                    <option value="year">1999</option>
+                    <option value="year">2000</option>
+                    <option value="year">2001</option>
+                    <option value="year">2002</option>
+                    <option value="year">2003</option>
+                    <option value="year">2004</option>
+                    <option value="year">2005</option>
+                    <option value="year">2006</option>
+                    <option value="year">2007</option>
+                    <option value="year">2008</option>
+                    <option value="year">2009</option>
+                    <option value="year">2010</option>
+                    <option value="year">2011</option>
+                    <option value="year">2012</option>
+                    <option value="year">2013</option>
+                    <option value="year">2015</option>
+                    <option value="year">2016</option>
+                    <br>
+                  </select>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-md-3">
+                  <select>
+                    <option>Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <select>
+                    <option>Country</option>
+                    <option>United States</option>
+                    <option>United Kingdom</option>
+                    <option>Mexico</option>
+                    <option>Canada</option>
+                    <option>China</option>
+                    <option>Germany</option>
+                    <option>Australia</option>
+                    <option>Spain</option>
+                    <br>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <p>
+                  <div class="col-md-5">
+                    <input type="text" name="username" placeholder="Address">
+                  </div>
+                  <div class="col-md-2">
+                    <input type="text" name="email" placeholder="Zip Code" style="width:62px">
+                  </div> 
+                  <select>
+                    <option>State</option>
+                    <option>AL</option>
+                    <option>AK</option>
+                    <option>AZ</option>
+                    <option>AR</option>
+                    <option>CA</option>
+                    <option>CO</option>
+                    <option>CT</option>
+                    <option>DE</option>
+                    <option>FL</option>
+                    <option>GA</option>
+                    <option>HI</option>
+                    <option>ID</option>
+                    <option>IL</option>
+                    <option>IN</option>
+                    <option>IA</option>
+                    <option>KS</option>
+                    <option>KY</option>
+                    <option>LA</option>
+                    <option>ME</option>
+                    <option>MD</option>
+                    <option>MA</option>
+                    <option>MI</option>
+                    <option>MN</option>
+                    <option>MS</option>
+                    <option>MO</option>
+                    <option>MT</option>
+                    <option>NE</option>
+                    <option>NV</option>
+                    <option>NH</option>
+                    <option>NJ</option>
+                    <option>NM</option>
+                    <option>NY</option>
+                    <option>NC</option>
+                    <option>ND</option>
+                    <option>OH</option>
+                    <option>OK</option>
+                    <option>OR</option>
+                    <option>PA</option>
+                    <option>RI</option>
+                    <option>SC</option>
+                    <option>SD</option>
+                    <option>TN</option>
+                    <option>TX</option>
+                    <option>UT</option>
+                    <option>VT</option>
+                    <option>VA</option>
+                    <option>WA</option>
+                    <option>WV</option>
+                    <option>WI</option>
+                    <option>WY</option>
+                  </select>
+                </p>
+              </div>
+          <p><input type="text" name="phone" placeholder="Phone Number"></p>
+          <form action="demo_form.asp" method="get">
+  <input type="checkbox" name="vehicle" value="Bike">Agree to the Terms and Conditions and Private Policies<br>
+  <input type="submit" value="Submit">
+</form>
+      </form>
+      </div>
+      </section>
+    </div>
+
+      <div class="col-md-6">
+        <section class="container-fluid">
+          <div class="border">
+            <div class="login">
+              <h1><img src="images/wotmlogoblack.png" style="width:100px;height:32px;"/></h1>
+              <h3><strong>Sign In</strong></h3>
+              <form method="post" action="index.html">
+                <p><input type="text" name="login" value="" placeholder="Username or Email"></p>
+                <p><input type="password" name="password" value="" placeholder="Password"></p>
+                <p class="remember_me">
+                  <label>
+                    <input type="checkbox" name="remember_me" id="remember_me">
+                    Remember me on this computer
+                  </label>
+                </p>
+                <p class="submit"><input type="submit" name="commit" value="Login"></p>
+              </form>
+            </div>
+
+            <div class="login-help">
+              <p>Forgot your password? <a href="index.html">Click here to reset it</a>.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      </div>
+</div>
+
+
+<br>
+
+
+
+  <div class="background">
+      <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="left">
+                  <form action="overall.asp">
+                  <input type="text" name="Search" placeholder="What are you looking for?" width="200px" height="25px">
+                  <input type="submit" value="Search">
+                  </form>
+                </div>
+              </div>
+              <div class="right">
+                <div class="col-md-8">
+                  <div class="logos">
+                    <img src="images/socialmedia/facebook.png" style="width:30px; height:30px;">
+                    <img src="images/socialmedia/googleplus.png" style="width:30px; height:30px;">
+                    <img src="images/socialmedia/linkedin.png" style="width:30px; height:30px;">
+                    <img src="images/socialmedia/twitter.png" style="width:30px; height:30px;">
+                    <img src="images/socialmedia/youtube.png" style="width:30px; height:30px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-1">
+                <p class="footer-text">Languages:</p>
+              </div>
+              <div class="col-md-2">
+                <div class="left">
+                  <form>
+                    <input type="submit" value="EN"> <input type="submit" value="ES"> <input type="submit" value="CN"> <input type="submit" value="GR">
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="left-2">
+                  <p>| <a href="C:\Users\admin\Desktop\the_weight_of_the_media\contact-us.html">Contact Us</a> | Terms and Conditions | Private Policy</p>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="right">
+                  <p class="footer-text">&#169 2016 Weight of the Media</p>
+                </div>
+              </div>
+            </div>
+          </div>      
+      </footer>
+    </div>
+</body>
+</html>

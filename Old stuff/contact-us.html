@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>Contact Us | The Weight of the Media</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	  <script src="http://maps.googleapis.com/maps/api/js"></script>
+	  <script>
+		function initialize() {
+		  var mapProp = {
+		    center:new google.maps.LatLng(40.756098,-73.9901882),
+		    zoom:16,
+		    mapTypeId:google.maps.MapTypeId.ROADMAP
+		  };
+		  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	  </script>
+	  <style type="text/css">
+	  	#ads {
+	  		text-align: center;
+	  	}
+	  	.background {
+	  		background-color: #333;
+	  		
+	  	}
+	  	.left {
+	  		text-align: left;
+	  	}
+	  	.right {
+	  		text-align: right;
+	  	}
+	  	/*.logos {
+	  		width: 
+	  	}*/
+
+	  	.left-2 {
+			text-align: left;
+			color: #fff;
+		}
+
+		.border-recent {
+			border: 3px solid #111;
+			padding: 10px 30px 20px 30px;
+		}
+
+		.border {
+			border: 3px solid #111;
+			padding: 10px 10px 20px 10px;
+		}
+
+		.footer {
+		  position:static;
+		  padding: 10px 0px 10px 0px;
+		  bottom:0px;
+		  width: 100%;
+		  margin: 0;
+		  background-color: #111;
+		}
+		.footer-text {
+		color: #fff;
+		}
+		.text-center {
+			text-align: center;
+		}
+		.send {
+			text-align: right;
+		}
+		.googleMap {
+
+
+		}
+		.border-fluid {
+			border: 3px solid #111;
+			padding: 10px 10px 10px 10px;
+		}
+
+	  </style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+				<a class="navbar-brand" href="#"><img src="images/wotmlogowhitesmall.png"></a>
+		    </div>
+		    <div>
+		      <ul class="nav navbar-nav">
+		        <!-- <li class="active"><a href="#">Media</a></li> -->
+		        <li class="dropdown">
+		          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Video Games</a></li>
+		            <li><a href="#">Music</a></li>
+		            <li><a href="#">Movies</a></li>                        
+		          </ul>
+		        <li><a href="#">Forums</a></li>
+		        <li><a href="#">Merchandise</a></li>
+		        <li><a href="#">Login/Sign Up</a></li>
+		        <li><a href="#">Cart</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<div class="container">
+		  	 <!-- <div class="jumbotron">
+		     	<h1>My first Bootstrap website!</h1>      
+		    	<p>This page will grow as we add more and more components from Bootstrap...</p>      
+		    	<a href="#" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-search"></span> Search</a>
+		  	</div> -->
+		  	<!-- <div class="row">
+		    	<div class="clearfix visible-lg"></div>
+		  	</div> -->
+		  	<div class="row">
+		  		<div class="col-md-12">
+		  			<div class="ads">
+		  				<img src="images/ads/sample.png">
+		  			</div>
+		  		</div>
+		  	</div>
+		  	<br>
+		  	<!-- <div class="container"> -->
+		  		<div class="border">
+		  			<div class="container-fluid">
+			  			<div class="row">
+			  				<div class="col-md-8">
+			  					<div class="gmaps">
+			  						<div>
+			  							<div id="googleMap" style="width:700px;height:500px;"></div>
+			  						</div>
+			  					</div>
+			  					<br>
+			  					<div class="contact">
+			  						<div class="border-fluid">
+			  							<table>
+			  								<tr>
+			  									<th><h3>Contact Information</h3></th>
+			  								</tr>
+			  								
+			  								<tr>
+					  							<th><h4>Address</h4></th>
+					  							<td>New York Times Bldg
+New York, NY 10018</td>
+					  						</tr>
+					  						
+			  								<tr>
+			  									<th><h4>Email</h4></th>
+			  									<td>wotminfo@weightofthemedia.com</td>
+			  								</tr>
+					  						
+					  						<tr>
+					  							<th><h4>Telephone</h4></th>
+					  							<td>(718)293-0923</td>
+					  						</tr>
+					  						
+					  						<tr>
+					  							<th><h4>Fax</h4></th>
+					  							<td>(718)092-0932</td>
+					  						</tr>	
+				  						</table>
+			  						</div>
+			  					</div>
+			  				</div>
+			  				<div class="col-md-4">
+			  					<div class="message">
+			  						<div class="border-fluid">
+			  							<h2>Send a Message</h2>
+			  							<br>
+			  							<p>Name</p>
+			  							<input type="text" name="name" value="Enter your full name">
+			  							<p><br>E-mail address</p>
+			  							<input type="text" name="email" value="user@domain.com">
+			  							<p><br>Message</p>
+			  							<input type="text" name= "message" value="Submit a message!">
+			  							<br>
+			  							<br>
+			  							<button class="send">Send</button>
+			  						</div>
+			  					</div>
+			  					<br>
+			  					<div class="ads">
+			  						<img src="images/ads/sample.png" width="350px" height="350px">
+			  					</div>
+			  				</div>
+			  			</div>
+			  			<br>
+			  		</div>
+		  		</div>
+		  	<!-- </div> -->
+		  	<div class="row">
+		  		<div class="col-md-12">
+		  			<div class="ads">
+		  				<img src="images/ads/sample.png">
+		  			</div>
+		  		</div>
+		  	</div>
+  	  	</div>
+		<div class="background">
+			<footer class="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="left">
+									<form action="overall.asp">
+									<input type="text" name="FirstName" value="What are you looking for?" width="200px" height="25px">
+									<input type="submit" value="Search">
+									</form>
+								</div>
+							</div>
+							<div class="right">
+								<div class="col-md-8">
+									<div class="logos">
+										<img src="images/socialmedia/facebook.png" style="width:30px; height:30px;">
+										<img src="images/socialmedia/googleplus.png" style="width:30px; height:30px;">
+										<img src="images/socialmedia/linkedin.png" style="width:30px; height:30px;">
+										<img src="images/socialmedia/twitter.png" style="width:30px; height:30px;">
+										<img src="images/socialmedia/youtube.png" style="width:30px; height:30px;">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-1">
+								<p class="footer-text">Languages:</p>
+							</div>
+							<div class="col-md-2">
+								<div class="left">
+									<form>
+										<input type="submit" value="EN"> <input type="submit" value="ES"> <input type="submit" value="CN"> <input type="submit" value="GR">
+									</form>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="left-2">
+									<p>| Contact Us | Terms and Conditions | Private Policy</p>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<div class="right">
+									<p class="footer-text">&#169 2016 Weight of the Media</p>
+								</div>
+							</div>
+						</div>
+					</div>			
+			</footer>
+		</div>
+	</body>
+</html>

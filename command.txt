@@ -1,0 +1,14 @@
+git init
+git add . 
+git commit -m ""
+git remote add origin "website"
+git push origin master
+*create a branch called gh-pages*
+
+git branch
+git add .
+git commit -m ""
+git remote add origin "website"
+
+
+git pull origin gh-pages

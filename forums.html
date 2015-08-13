@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>Forums | The Weight of the Media</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	  <style type="text/css">
+	  	#ads {
+	  		text-align: center;
+	  	}
+	  	.background {
+	  		background-color: #333;
+	  		
+	  	}
+	  	.left {
+	  		text-align: left;
+	  	}
+	  	.right {
+	  		text-align: right;
+	  	}
+	  	/*.logos {
+	  		width: 
+	  	}*/
+
+	  	.left-2 {
+			text-align: left;
+			color: #fff;
+		}
+
+		.border-recent {
+			border: 3px solid #111;
+			padding: 10px 30px 20px 30px;
+		}
+
+		.border {
+			border: 3px solid #111;
+			padding: 10px 10px 20px 10px;
+		}
+
+		.footer {
+		  position:static;
+		  padding: 10px 0px 10px 0px;
+		  bottom:0px;
+		  width: 100%;
+		  margin: 0;
+		  background-color: #111;
+		}
+		.footer-text {
+		color: #fff;
+		}
+		.text-center {
+			text-align: center;
+		}
+
+		table, th, tr, td {
+			border: 1px solid #111;
+			width: 100%;
+			padding: 10px 10px 10px 10px;
+		}
+	  </style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+				<a class="navbar-brand" href="C:\Users\admin\Desktop\the_weight_of_the_media\index.html"><img src="images/wotmlogowhite.png" style="width:54px;height:22px"></a>
+		    </div>
+		    <div>
+		      <ul class="nav navbar-nav">
+		        <!-- <li class="active"><a href="#">Media</a></li> -->
+		        <li class="dropdown">
+		          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\videogames.html">Video Games</a></li>
+		            <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\music.html">Music</a></li>
+		            <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\movies.html">Movies</a></li>                        
+		          </ul>
+		        <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\forums.html">Forums</a></li>
+		        <li><a href="#">Merchandise</a></li>
+		        <li><a href="C:\Users\admin\Desktop\the_weight_of_the_media\login.html">Login/Sign Up</a></li>
+		        <li><a href="#">Cart</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<div class="container">
+		  	 <!-- <div class="jumbotron">
+		     	<h1>My first Bootstrap website!</h1>      
+		    	<p>This page will grow as we add more and more components from Bootstrap...</p>      
+		    	<a href="#" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-search"></span> Search</a>
+		  	</div> -->
+		  	<!-- <div class="row">
+		    	<div class="clearfix visible-lg"></div>
+		  	</div> -->
+		  	<div class="row">
+		  		<div class="col-md-12">
+		  			<div class="ads">
+		  				<img src="images/ads/sample.png">
+		  			</div>
+		  		</div>
+		  	</div>
+		  	<br>
+		  		<div class="border">
+		  			<div class="container-fluid">
+			  			<div class="forum-header">
+			  				<div class="row">
+			  					<div class="col-md-7">
+					  				<div class="left">
+					  					<h1>Forums</h1>
+					  				</div>
+					  			</div>
+								<div class="col-md-5">
+					  				<div class="center">
+					  					<div class="row">
+					  						<div class="col-md-7" >Filter: All threads | Sort by:</div> 
+					  						<!-- Split button -->
+											<!-- <div class="btn-group">
+												<button type="button" class="btn btn-danger">Action</button>
+												<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												    <span class="caret"></span>
+												    <span class="sr-only">Toggle Dropdown</span>
+												</button>
+												  	<ul class="dropdown-menu">
+												    	<li><a href="#">Action</a></li>
+												    	<li><a href="#">Another action</a></li>
+												    	<li><a href="#">Something else here</a></li>
+												    	<li role="separator" class="divider"></li>
+												    	<li><a href="#">Separated link</a></li>
+												  </ul>
+											</div> -->
+											<!-- Extra small button group -->
+											<div class="col-md-5">	
+													<!-- <div class="btn-group">
+													  	<button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													    Most Recent <span class="caret"></span>
+													  	</button>
+													  	<ul class="dropdown-menu">
+													    	<li><a href="#">Most Popular</a></li>
+													    	<li><a href="#">A-Z</a></li>
+													    	<li><a href="#">Numerical</a></li>
+													    	<li role="separator" class="divider"></li>
+													    	<li><a href="#">Separated link</a></li>
+													  	</ul>
+													</div> -->
+												<select>
+													<option value="Most Recent">Most Recent</option>
+													<option value="Most Popular"> Most Popular</option>
+													<option value="A-Z">A-Z</option>
+													<option value="Numerical">Numerical</option>
+												</select>
+											</div>
+					  					</div>
+					  				</div>
+					  			</div>
+				  			</div>
+			  			</div>
+			  			<br>
+			  			<div class="search">
+			  				<div class="right">
+			  					<input type="text" name="search" value="Search our forums">
+			  					<input type="Submit" value="Search">
+			  				</div>
+			  			</div>
+			  			<div class="new-thread">
+			  				<div class="row">
+			  					<div class="col-md-12">
+					  				<div class="left">
+					  					<button> Create a New Thread</button>
+					  				</div>
+					  				<div class="right">
+					  					<p class="tree">Forum Start/</p>
+					  				</div>
+					  			</div>
+				  			</div>
+			  			</div>
+			  			<br>
+			  			<div class="table-1">
+			  				<table>
+			  					<tr>
+			  						<th colspan="2">CONTROL ROOM</th>
+			  						<th class="text-center">LATEST REPLY</th>
+			  						<th class="text-center">TOPICS</th>
+			  						<th class="text-center">REPORTS</th>
+			  					</tr>
+			  					<tr>
+			  						<td colspan="2">Official News & Announcements</td>
+			  						<td class="text-center">Topic/User/Time</td>
+			  						<td class="text-center">#</td>
+			  						<td class="text-center">#</td>
+			  					</tr>
+			  					<tr>
+			  						<td colspan="2">Updates</td>
+			  						<td class="text-center">Topic/User/Time</td>
+			  						<td class="text-center">#</td>
+			  						<td class="text-center">#</td>
+			  					</tr>
+			  				</table>
+			  			</div>
+			  			<br>
+			  			<div class="table-2">
+			  				<table>
+			  					<tr>
+			  						<th colspan="2">WEIGHT OF THE MEDIA</th>
+			  						<th class="text-center">LATEST REPLY</th>
+			  						<th class="text-center">TOPICS</th>
+			  						<th class="text-center">REPORTS</th>
+			  					</tr>
+			  					<tr>
+			  						<td colspan="2">General Discussions</td>
+			  						<td class="text-center">Topic/User/Time</td>
+			  						<td class="text-center">#</td>
+			  						<td class="text-center">#</td>
+			  					</tr>
+			  					<tr>
+			  						<td colspan="2">Music</td>
+			  						<td class="text-center">Topic/User/Time</td>
+			  						<td class="text-center">#</td>
+			  						<td class="text-center">#</td>
+			  					</tr>
+			  					<tr>
+			  						<td colspan="2">Video Games</td>
+			  						<td class="text-center">Topic/User/Time</td>
+			  						<td class="text-center">#</td>
+			  						<td class="text-center">#</td>
+			  					</tr>
+			  					<tr>
+			  						<td colspan="2">Movies</td>
+			  						<td class="text-center">Topic/User/Time</td>
+			  						<td class="text-center">#</td>
+			  						<td class="text-center">#</td>
+			  					</tr>
+			  					<tr>
+			  						<td colspan="2">Technical Help and issues</td>
+			  						<td></td>
+			  						<td></td>
+			  						<td></td>
+			  					</tr>
+			  				</table>
+			  			</div>
+			  		</div>
+		  		</div>
+		  	<br>
+		  	<div class="row">
+		  		<div class="col-md-12">
+		  			<div class="ads">
+		  				<img src="images/ads/sample.png">
+		  			</div>
+		  		</div>
+		  	</div>
+  	  	</div>
+  	  	<br>
+		<div class="background">
+			<footer class="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="left">
+									<form action="overall.asp">
+									<input type="text" name="FirstName" value="What are you looking for?" width="200px" height="25px">
+									<input type="submit" value="Search">
+									</form>
+								</div>
+							</div>
+							<div class="right">
+								<div class="col-md-8">
+									<div class="logos">
+										<img src="images/socialmedia/facebook.png" style="width:30px; height:30px;">
+										<img src="images/socialmedia/googleplus.png" style="width:30px; height:30px;">
+										<img src="images/socialmedia/linkedin.png" style="width:30px; height:30px;">
+										<img src="images/socialmedia/twitter.png" style="width:30px; height:30px;">
+										<img src="images/socialmedia/youtube.png" style="width:30px; height:30px;">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-1">
+								<p class="footer-text">Languages:</p>
+							</div>
+							<div class="col-md-2">
+								<div class="left">
+									<form>
+										<input type="submit" value="EN"> <input type="submit" value="ES"> <input type="submit" value="CN"> <input type="submit" value="GR">
+									</form>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="left-2">
+									<p>| <a href="C:\Users\admin\Desktop\the_weight_of_the_media\contact-us.html">Contact Us</a> | Terms and Conditions | Private Policy</p>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<div class="right">
+									<p class="footer-text">&#169 2016 Weight of the Media</p>
+								</div>
+							</div>
+						</div>
+					</div>			
+			</footer>
+		</div>
+	</body>
+</html>
